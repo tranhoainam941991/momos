@@ -36,6 +36,7 @@ npm run nx -- serve backend
 ```
 ## Frontend
 Tech stack: *react*, *react-route-dom*, *axios*
+
 For start server please use following command:
 ```
 npm run nx -- serve frontend 
