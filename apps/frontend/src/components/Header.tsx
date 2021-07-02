@@ -1,0 +1,28 @@
+import styles from '../app/app.module.css';
+import {Container} from 'react-bootstrap'
+import {
+  Link
+} from "react-router-dom";
+export function Header() {
+  return (
+    <div>
+      <div className={styles.header}>
+        <Container>
+          <div className={styles.navWrapper}>
+            <Link to="/" className={styles.logo}>
+              <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" alt=""/>
+            </Link>
+          </div>
+        </Container>
+      </div>
+      <div className={styles.nav2}>
+        <Container>
+          &nbsp;
+        </Container>
+      </div>
+    </div>
+
+  );
+}
+
+export default Header;

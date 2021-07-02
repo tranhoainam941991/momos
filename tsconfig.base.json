@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@momos/constants": ["libs/constants/src/index.ts"],
+      "@momos/types": ["libs/types/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
