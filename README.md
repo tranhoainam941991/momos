@@ -1,7 +1,7 @@
 
 
 # Momos
-**For limit of time, I cannot do E2E test for Frontend, I only include a small unit test in `/apps/backend/test` **
+For limit of time, I cannot do E2E test for Frontend, I only include a small unit test in `/apps/backend/test`
 
 For install please use following command:
 ```
@@ -26,6 +26,7 @@ project
     └───constants (containt all constant)
 
 ```
+The structure above is a NX project for monorepo (For more detail: https://nx.dev/)
 ## Backend
 Tech stack: *express*, *jest*, *axios*
 
